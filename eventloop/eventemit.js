@@ -38,3 +38,4 @@ timerEmitter.on(timerEmitter.eventName, () => {
 });
 timerEmitter.addTimerId(foo(2, timerEmitter));
 timerEmitter.removeTimerId(foo(1, timerEmitter));
+/*clean the timer*/
