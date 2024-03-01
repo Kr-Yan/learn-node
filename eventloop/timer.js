@@ -12,3 +12,6 @@ const foo = (a) => {
 foo(2);
 foo(1);
 
+// 1. Call to foo(2):
+// 2. Call to foo(1)
+// 3. Event Loop & setTimeout Callbacks
